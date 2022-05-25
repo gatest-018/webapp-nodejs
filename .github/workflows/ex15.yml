@@ -3,7 +3,7 @@ name: Azure Deploy CI
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   AZURE_WEBAPP_NAME: gatestapp018   # set this to your application's name
